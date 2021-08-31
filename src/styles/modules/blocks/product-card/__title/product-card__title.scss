@@ -1,0 +1,4 @@
+.product-card__title {
+  @include fontTitle(700, 18px, 20px, 1px);
+  @include margins(0, 0);
+}

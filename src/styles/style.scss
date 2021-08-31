@@ -45,6 +45,21 @@
 @import "modules/blocks/video/__inner/video__inner.scss";
 @import "modules/blocks/video/__author/video__author.scss";
 
+/* CATALOG */
+@import "modules/blocks/catalog/catalog.scss";
+@import "modules/blocks/catalog/__title/catalog__title.scss";
+@import "modules/blocks/catalog/__cards/catalog__cards.scss";
+@import "modules/blocks/catalog/__wrapper/catalog__wrapper.scss";
+
+/* PRODUCT CARD */
+@import "modules/blocks/product-card/product-card.scss";
+@import "modules/blocks/product-card/__item/product-card__item.scss";
+@import "modules/blocks/product-card/__capacity/product-card__capacity.scss";
+@import "modules/blocks/product-card/__description/product-card__description.scss";
+@import "modules/blocks/product-card/__image/product-card__image.scss";
+@import "modules/blocks/product-card/__price/product-card__price.scss";
+@import "modules/blocks/product-card/__title/product-card__title.scss";
+
 /* SLIDER */
 @import "modules/blocks/slider/slider.scss";
 @import "modules/blocks/slider/slider_disable-transition.scss";

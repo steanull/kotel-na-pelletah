@@ -1,0 +1,9 @@
+.catalog__cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
+  grid-template-rows: minmax(min-content, max-content);
+  gap: 0 20px;
+  justify-content: space-between;
+  list-style: none;
+  @include margins(50px 0, 0)
+}
