@@ -1,0 +1,8 @@
+.top-screen {
+  max-width: 1440px;
+  width: 100%;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

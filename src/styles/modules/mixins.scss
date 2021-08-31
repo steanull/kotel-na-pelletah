@@ -1,0 +1,46 @@
+@mixin media($maxWidth) {
+  @media screen and (max-width: $maxWidth) {
+    @content;
+  }
+}
+
+@mixin fontTitle($fontWeight, $fontSize, $lineHeight, $letterSpacing) {
+  font-style: normal;
+  color: var(--title-color);
+  letter-spacing: $letterSpacing;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@mixin font($fontWeight, $fontSize, $lineHeight, $color) {
+  color: $color;
+  font-style: normal;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+
+@mixin size($maxWidth, $minHeight) {
+  max-width: $maxWidth;
+  width: 100%;
+  min-height: $minHeight;
+}
+
+@mixin margins($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
+}
+
+@mixin backgroundImage($backgroundUrl, $backgroundRepeat, $backgroundPosition, $backgroundSize) {
+  background-image: url($backgroundUrl);
+  background-repeat: $backgroundRepeat;
+  background-position: $backgroundPosition;
+  background-size: $backgroundSize;
+}

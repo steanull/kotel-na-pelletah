@@ -1,0 +1,4 @@
+.top-screen__quote {
+  @include font(600, 22px, 22px, #e6b447);
+  @include margins(20px 0, 0);
+}

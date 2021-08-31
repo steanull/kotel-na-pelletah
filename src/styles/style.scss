@@ -1,0 +1,31 @@
+@import "../fonts/fonts.scss";
+@import "modules/variables.scss";
+@import "modules/mixins.scss";
+@import "modules/blocks/page/page.scss";
+
+/* HEADER */
+@import "modules/blocks/header/header.scss";
+@import "modules/blocks/header/__menu/header__menu.scss";
+@import "modules/blocks/header/__inner/header__inner.scss";
+
+/* MENU */
+@import "modules/blocks/menu/menu.scss";
+@import "modules/blocks/menu/__logo/menu__logo.scss";
+@import "modules/blocks/menu/__list/menu__list.scss";
+@import "modules/blocks/menu/__link/menu__link.scss";
+@import "modules/blocks/menu/__phone/menu__phone.scss";
+@import "modules/blocks/menu/__item/menu__item.scss";
+
+/* TOP-SCREEN */
+@import "modules/blocks/top-screen/top-screen.scss";
+@import "modules/blocks/top-screen/__background/top-screen__background.scss";
+@import "modules/blocks/top-screen/__button/top-screen__button.scss";
+@import "modules/blocks/top-screen/__description/top-screen__description.scss";
+@import "modules/blocks/top-screen/__image/top-screen__image.scss";
+@import "modules/blocks/top-screen/__item/top-screen__item.scss";
+@import "modules/blocks/top-screen/__quote/top-screen__quote.scss";
+@import "modules/blocks/top-screen/__text-button/top-screen__text-button.scss";
+@import "modules/blocks/top-screen/__title/top-screen__title.scss";
+@import "modules/blocks/top-screen/__wrapper/top-screen__wrapper.scss";
+@import "modules/blocks/top-screen/__advantages/top-screen__advantages.scss";
+@import "modules/blocks/top-screen/__advantage/top-screen__advantage.scss";

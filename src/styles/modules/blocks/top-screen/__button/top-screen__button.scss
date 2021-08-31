@@ -1,0 +1,39 @@
+.top-screen__button {
+  @include size(180px, 50px);
+  border: 0;
+  background-color: #e6b447;
+  border-radius: 4px;
+  @include font(600, 14px, 18px, #FFFFFF);
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(46, 56, 66, 1) 0%, rgba(46, 56, 66, 1) 50%, rgba(230, 180, 71, 1) 50%, rgba(230, 180, 71, 1) 100%);
+    transition: left .7s;
+  }
+
+  &:hover:before {
+    left: 0;
+  }
+
+  @include media(767px) {
+    width: 100%;
+    max-width: 100%;
+    min-height: 46px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
