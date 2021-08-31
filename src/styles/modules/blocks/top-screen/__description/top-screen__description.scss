@@ -1,0 +1,5 @@
+.top-screen__description {
+  list-style: none;
+  @include font(400, 18px, 30px, #2e3842);
+  @include margins(7vh 0, 0);
+}

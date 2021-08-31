@@ -20,7 +20,7 @@
 }
 
 @mixin font($fontWeight, $fontSize, $lineHeight, $color) {
-  color: var(--$color);
+  color: $color;
   font-style: normal;
   font-weight: $fontWeight;
   font-size: $fontSize;
@@ -31,6 +31,11 @@
   max-width: $maxWidth;
   width: 100%;
   min-height: $minHeight;
+}
+
+@mixin margins($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
 }
 
 @mixin backgroundImage($backgroundUrl, $backgroundRepeat, $backgroundPosition, $backgroundSize) {

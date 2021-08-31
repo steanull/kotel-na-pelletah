@@ -1,0 +1,9 @@
+.top-screen__advantages {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  grid-template-rows: minmax(min-content, max-content);
+  justify-content: space-between;
+  gap: 0 60px;
+  margin: 10vh 0 0;
+  position: relative;
+}

@@ -1,0 +1,8 @@
+.menu__link {
+  @include font(400, 16px, 16px, #151515);
+  text-decoration: none;
+  transition: .3s;
+  &:hover {
+    color: #e6b447;
+  }
+}

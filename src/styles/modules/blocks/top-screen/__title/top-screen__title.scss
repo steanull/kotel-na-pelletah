@@ -1,0 +1,6 @@
+.top-screen__title {
+  max-width: 550px;
+  width: 100%;
+  @include fontTitle(700, 28px, 40px, 0.5px);
+  @include margins(0, 0);
+}
