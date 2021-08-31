@@ -3,4 +3,8 @@
   font-weight: 600;
   opacity: .8;
   color: var(--title-color);
+  transition: .2s;
+  &:hover {
+    color: #e6b447;
+  }
 }

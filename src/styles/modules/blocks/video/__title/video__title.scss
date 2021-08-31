@@ -1,0 +1,4 @@
+.video__title {
+  @include fontTitle(700, 28px, 40px, 0.5px);
+  @include margins(20px 0, 0);
+}
