@@ -3,6 +3,10 @@
 @import "modules/mixins.scss";
 @import "modules/blocks/page/page.scss";
 
+/* CONTENT */
+@import "modules/blocks/content/content.scss";
+@import "modules/blocks/content/__slider/content__slider.scss";
+
 /* HEADER */
 @import "modules/blocks/header/header.scss";
 @import "modules/blocks/header/__menu/header__menu.scss";
@@ -15,6 +19,7 @@
 @import "modules/blocks/menu/__link/menu__link.scss";
 @import "modules/blocks/menu/__phone/menu__phone.scss";
 @import "modules/blocks/menu/__item/menu__item.scss";
+@import "modules/blocks/menu/__wrapper/menu__wrapper.scss";
 
 /* TOP-SCREEN */
 @import "modules/blocks/top-screen/top-screen.scss";
@@ -39,3 +44,20 @@
 @import "modules/blocks/video/__image/video__image.scss";
 @import "modules/blocks/video/__inner/video__inner.scss";
 @import "modules/blocks/video/__author/video__author.scss";
+
+/* SLIDER */
+@import "modules/blocks/slider/slider.scss";
+@import "modules/blocks/slider/slider_disable-transition.scss";
+@import "modules/blocks/slider/__container/slider__container.scss";
+@import "modules/blocks/slider/__control/slider__control.scss";
+@import "modules/blocks/slider/__indicators/slider__indicators.scss";
+@import "modules/blocks/slider/__item/slider__item.scss";
+@import "modules/blocks/slider/__items/slider__items.scss";
+@import "modules/blocks/slider/__item-content/slider__item-content.scss";
+@import "modules/blocks/slider/__image/slider__image.scss";
+@import "modules/blocks/slider/__content-inner/slider__content-inner.scss";
+@import "modules/blocks/slider/__title/slider__title.scss";
+@import "modules/blocks/slider/__description/slider__description.scss";
+@import "modules/blocks/slider/__accent/slider__accent.scss";
+@import "modules/blocks/slider/__nameplate/slider__nameplate.scss";
+@import "modules/blocks/slider/__subtitle/slider__subtitle.scss";

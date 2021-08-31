@@ -1,0 +1,8 @@
+.menu__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  @include size(1200px, 70px);
+}

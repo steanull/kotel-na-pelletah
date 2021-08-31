@@ -1,0 +1,12 @@
+.slider__description {
+    color: #606062;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1250px) {
+    .slider__description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
