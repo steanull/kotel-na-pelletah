@@ -1,0 +1,18 @@
+.catalog__title {
+  @include font(700, 28px, 40px, #FFFFFF);
+  @include margins(0, 0);
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: #e6b447;
+    max-width: 232px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    left: 0;
+  }
+}

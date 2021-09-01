@@ -3,6 +3,11 @@
 @import "modules/mixins.scss";
 @import "modules/blocks/page/page.scss";
 
+/* CONTENT */
+@import "modules/blocks/content/content.scss";
+@import "modules/blocks/content/__slider/content__slider.scss";
+@import "modules/blocks/content/__gallery/content__gallery.scss";
+
 /* HEADER */
 @import "modules/blocks/header/header.scss";
 @import "modules/blocks/header/__menu/header__menu.scss";
@@ -15,6 +20,7 @@
 @import "modules/blocks/menu/__link/menu__link.scss";
 @import "modules/blocks/menu/__phone/menu__phone.scss";
 @import "modules/blocks/menu/__item/menu__item.scss";
+@import "modules/blocks/menu/__wrapper/menu__wrapper.scss";
 
 /* TOP-SCREEN */
 @import "modules/blocks/top-screen/top-screen.scss";
@@ -29,3 +35,101 @@
 @import "modules/blocks/top-screen/__wrapper/top-screen__wrapper.scss";
 @import "modules/blocks/top-screen/__advantages/top-screen__advantages.scss";
 @import "modules/blocks/top-screen/__advantage/top-screen__advantage.scss";
+
+/* VIDEO */
+@import "modules/blocks/video/video.scss";
+@import "modules/blocks/video/__wrapper/video__wrapper.scss";
+@import "modules/blocks/video/__title/video__title.scss";
+@import "modules/blocks/video/__description/video__description.scss";
+@import "modules/blocks/video/__tube/video__tube.scss";
+@import "modules/blocks/video/__image/video__image.scss";
+@import "modules/blocks/video/__inner/video__inner.scss";
+@import "modules/blocks/video/__author/video__author.scss";
+
+/* CATALOG */
+@import "modules/blocks/catalog/catalog.scss";
+@import "modules/blocks/catalog/__title/catalog__title.scss";
+@import "modules/blocks/catalog/__cards/catalog__cards.scss";
+@import "modules/blocks/catalog/__wrapper/catalog__wrapper.scss";
+
+/* PRODUCT CARD */
+@import "modules/blocks/product-card/product-card.scss";
+@import "modules/blocks/product-card/__item/product-card__item.scss";
+@import "modules/blocks/product-card/__capacity/product-card__capacity.scss";
+@import "modules/blocks/product-card/__description/product-card__description.scss";
+@import "modules/blocks/product-card/__image/product-card__image.scss";
+@import "modules/blocks/product-card/__price/product-card__price.scss";
+@import "modules/blocks/product-card/__title/product-card__title.scss";
+@import "modules/blocks/product-card/__link/product-card__link.scss";
+@import "modules/blocks/product-card/__inner/product-card__inner.scss";
+@import "modules/blocks/product-card/__button/product-card__button.scss";
+
+/* SLIDER */
+@import "modules/blocks/slider/slider.scss";
+@import "modules/blocks/slider/slider_disable-transition.scss";
+@import "modules/blocks/slider/__container/slider__container.scss";
+@import "modules/blocks/slider/__control/slider__control.scss";
+@import "modules/blocks/slider/__indicators/slider__indicators.scss";
+@import "modules/blocks/slider/__item/slider__item.scss";
+@import "modules/blocks/slider/__items/slider__items.scss";
+@import "modules/blocks/slider/__item-content/slider__item-content.scss";
+@import "modules/blocks/slider/__image/slider__image.scss";
+@import "modules/blocks/slider/__content-inner/slider__content-inner.scss";
+@import "modules/blocks/slider/__title/slider__title.scss";
+@import "modules/blocks/slider/__description/slider__description.scss";
+@import "modules/blocks/slider/__accent/slider__accent.scss";
+@import "modules/blocks/slider/__nameplate/slider__nameplate.scss";
+@import "modules/blocks/slider/__subtitle/slider__subtitle.scss";
+
+/* ADVANTAGES */
+@import "modules/blocks/advantages/advantages.scss";
+@import "modules/blocks/advantages/__wrapper/advantages__wrapper.scss";
+@import "modules/blocks/advantages/__description/advantages__description.scss";
+@import "modules/blocks/advantages/__icon/advantages__icon.scss";
+@import "modules/blocks/advantages/__item/advantages__item.scss";
+@import "modules/blocks/advantages/__list/advantages__list.scss";
+@import "modules/blocks/advantages/__slogan/advantages__slogan.scss";
+@import "modules/blocks/advantages/__subtitle/advantages__subtitle.scss";
+@import "modules/blocks/advantages/__title/advantages_title.scss";
+
+/* GALLERY */
+@import "modules/blocks/gallery/gallery.scss";
+@import "modules/blocks/gallery/__accent/gallery__accent.scss";
+@import "modules/blocks/gallery/__image/gallery__image.scss";
+@import "modules/blocks/gallery/__inner/gallery__inner.scss";
+@import "modules/blocks/gallery/__title/gallery__title.scss";
+
+/* CONTACTS */
+@import "modules/blocks/contacts/contacts.scss";
+@import "modules/blocks/contacts/__address/contacts__address.scss";
+@import "modules/blocks/contacts/__info/contacts__info.scss";
+@import "modules/blocks/contacts/__inner/contacts__inner.scss";
+@import "modules/blocks/contacts/__mail/contacts__mail.scss";
+@import "modules/blocks/contacts/__map/contacts__map.scss";
+@import "modules/blocks/contacts/__phone/contacts__phone.scss";
+@import "modules/blocks/contacts/__time/contacts__time.scss";
+@import "modules/blocks/contacts/__title/contacts__title.scss";
+@import "modules/blocks/contacts/__wrapper/contacts__wrapper.scss";
+@import "modules/blocks/contacts/__button/contacts__button";
+
+/* STEPS */
+@import "modules/blocks/steps/steps.scss";
+@import "modules/blocks/steps/__description/steps__description.scss";
+@import "modules/blocks/steps/__image/steps__image.scss";
+@import "modules/blocks/steps/__item/steps__item.scss";
+@import "modules/blocks/steps/__list/steps__list.scss";
+@import "modules/blocks/steps/__subtitle/steps__subtitle.scss";
+@import "modules/blocks/steps/__text/steps__text.scss";
+@import "modules/blocks/steps/__title/steps__title.scss";
+@import "modules/blocks/steps/__wrapper/steps__wrapper.scss";
+@import "modules/blocks/steps/__accent/steps__accent.scss";
+
+/* FOOTER */
+@import "modules/blocks/footer/footer.scss";
+@import "modules/blocks/footer/__wrapper/footer__wrapper.scss";
+@import "modules/blocks/footer/__item/footer__item.scss";
+@import "modules/blocks/footer/__icon/footer__icon.scss";
+@import "modules/blocks/footer/__link/footer__link.scss";
+@import "modules/blocks/footer/__copyright/footer__copyright.scss";
+@import "modules/blocks/footer/__icons/footer__icons.scss";
+

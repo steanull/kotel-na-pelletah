@@ -1,0 +1,4 @@
+.catalog__wrapper {
+  @include size(1200px, 100px);
+  @include margins(20px auto, 80px 0);
+}

@@ -1,0 +1,8 @@
+.footer__link {
+  @include font(400, 16px, 18px, #ffffff);
+  @include margins(0, 10px 0);
+  transition: .2s;
+  &:hover {
+    color: #e6b447;
+  }
+}

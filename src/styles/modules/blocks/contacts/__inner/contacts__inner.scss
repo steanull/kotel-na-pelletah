@@ -1,0 +1,8 @@
+.contacts__inner {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: minmax(min-content, max-content);
+  gap: 0 80px;
+  justify-content: space-between;
+  background-color: rgba(46, 56, 66, .8);;
+}

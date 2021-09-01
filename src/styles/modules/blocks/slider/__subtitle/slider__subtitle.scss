@@ -1,0 +1,5 @@
+.slider__subtitle {
+  @include fontTitle(700, 22px, 36px, 0.5px);
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,13 @@
+.slider__item-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .slider__item-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

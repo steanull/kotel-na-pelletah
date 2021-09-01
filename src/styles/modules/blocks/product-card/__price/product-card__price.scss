@@ -1,0 +1,4 @@
+.product-card__price {
+  @include font(700, 18px, 20px, #e6b447);
+  margin: 15px 0;
+}

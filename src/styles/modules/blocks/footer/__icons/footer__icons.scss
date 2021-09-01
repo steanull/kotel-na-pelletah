@@ -1,0 +1,8 @@
+.footer__icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+  @include margins(0, 0)
+}
