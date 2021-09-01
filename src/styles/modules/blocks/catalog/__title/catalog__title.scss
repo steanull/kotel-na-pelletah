@@ -1,5 +1,5 @@
 .catalog__title {
-  @include fontTitle(700, 28px, 40px, 0.5px);
+  @include font(700, 28px, 40px, #FFFFFF);
   @include margins(0, 0);
   position: relative;
 

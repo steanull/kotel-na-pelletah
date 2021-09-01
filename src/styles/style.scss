@@ -6,6 +6,7 @@
 /* CONTENT */
 @import "modules/blocks/content/content.scss";
 @import "modules/blocks/content/__slider/content__slider.scss";
+@import "modules/blocks/content/__gallery/content__gallery.scss";
 
 /* HEADER */
 @import "modules/blocks/header/header.scss";
@@ -79,3 +80,31 @@
 @import "modules/blocks/slider/__accent/slider__accent.scss";
 @import "modules/blocks/slider/__nameplate/slider__nameplate.scss";
 @import "modules/blocks/slider/__subtitle/slider__subtitle.scss";
+
+/* ADVANTAGES */
+@import "modules/blocks/advantages/advantages.scss";
+@import "modules/blocks/advantages/__wrapper/advantages__wrapper.scss";
+@import "modules/blocks/advantages/__description/advantages__description.scss";
+@import "modules/blocks/advantages/__icon/advantages__icon.scss";
+@import "modules/blocks/advantages/__item/advantages__item.scss";
+@import "modules/blocks/advantages/__list/advantages__list.scss";
+@import "modules/blocks/advantages/__slogan/advantages__slogan.scss";
+@import "modules/blocks/advantages/__subtitle/advantages__subtitle.scss";
+@import "modules/blocks/advantages/__title/advantages_title.scss";
+
+/* GALLERY */
+@import "modules/blocks/gallery/gallery.scss";
+@import "modules/blocks/gallery/__accent/gallery__accent.scss";
+@import "modules/blocks/gallery/__image/gallery__image.scss";
+@import "modules/blocks/gallery/__inner/gallery__inner.scss";
+@import "modules/blocks/gallery/__title/gallery__title.scss";
+
+/* FOOTER */
+@import "modules/blocks/footer/footer.scss";
+@import "modules/blocks/footer/__wrapper/footer__wrapper.scss";
+@import "modules/blocks/footer/__item/footer__item.scss";
+@import "modules/blocks/footer/__icon/footer__icon.scss";
+@import "modules/blocks/footer/__link/footer__link.scss";
+@import "modules/blocks/footer/__copyright/footer__copyright.scss";
+@import "modules/blocks/footer/__icons/footer__icons.scss";
+
