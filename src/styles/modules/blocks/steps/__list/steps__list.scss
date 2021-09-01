@@ -1,0 +1,7 @@
+.steps__list {
+  list-style: none;
+  @include margins(70px 0 20px, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

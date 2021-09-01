@@ -112,6 +112,18 @@
 @import "modules/blocks/contacts/__wrapper/contacts__wrapper.scss";
 @import "modules/blocks/contacts/__button/contacts__button";
 
+/* STEPS */
+@import "modules/blocks/steps/steps.scss";
+@import "modules/blocks/steps/__description/steps__description.scss";
+@import "modules/blocks/steps/__image/steps__image.scss";
+@import "modules/blocks/steps/__item/steps__item.scss";
+@import "modules/blocks/steps/__list/steps__list.scss";
+@import "modules/blocks/steps/__subtitle/steps__subtitle.scss";
+@import "modules/blocks/steps/__text/steps__text.scss";
+@import "modules/blocks/steps/__title/steps__title.scss";
+@import "modules/blocks/steps/__wrapper/steps__wrapper.scss";
+@import "modules/blocks/steps/__accent/steps__accent.scss";
+
 /* FOOTER */
 @import "modules/blocks/footer/footer.scss";
 @import "modules/blocks/footer/__wrapper/footer__wrapper.scss";
