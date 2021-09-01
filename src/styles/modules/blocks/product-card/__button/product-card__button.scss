@@ -1,0 +1,15 @@
+.product-card__button {
+  background-color: #e6b447;
+  border: 0;
+  border-radius: 6px;
+  color: #FFFFFF;
+  padding: 2px 10px;
+  margin: 10px 0;
+  height: 30px;
+  @include font(200, 12px, 12px, #FFFFFF);
+  cursor: pointer;
+  transition: .2s;
+  &:hover {
+    background-color: #2e3842;
+  }
+}

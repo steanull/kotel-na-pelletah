@@ -1,4 +1,21 @@
 .product-card__title {
   @include fontTitle(700, 18px, 20px, 1px);
   @include margins(0, 0);
+  transition: .2s;
+  position: relative;
+  &:before {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #e6b447;
+    max-width: 132px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: 36px;
+    left: 0;
+  }
+  &:hover {
+    color: #e6b447;
+  }
 }

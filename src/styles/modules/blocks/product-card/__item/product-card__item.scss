@@ -4,4 +4,11 @@
   width: 100%;
   padding: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: .3s;
+  &:hover {
+    box-shadow: 0 0 19px 0 rgba(50, 50, 50, 0.3);
+  }
 }
