@@ -1,0 +1,8 @@
+.contacts__mail {
+  @include font(400, 16px, 24px, #bfbfbf);
+  text-decoration: none;
+  transition: .2s;
+  &:hover {
+    color: #e6b447;
+  }
+}

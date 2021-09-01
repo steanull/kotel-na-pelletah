@@ -99,6 +99,19 @@
 @import "modules/blocks/gallery/__inner/gallery__inner.scss";
 @import "modules/blocks/gallery/__title/gallery__title.scss";
 
+/* CONTACTS */
+@import "modules/blocks/contacts/contacts.scss";
+@import "modules/blocks/contacts/__address/contacts__address.scss";
+@import "modules/blocks/contacts/__info/contacts__info.scss";
+@import "modules/blocks/contacts/__inner/contacts__inner.scss";
+@import "modules/blocks/contacts/__mail/contacts__mail.scss";
+@import "modules/blocks/contacts/__map/contacts__map.scss";
+@import "modules/blocks/contacts/__phone/contacts__phone.scss";
+@import "modules/blocks/contacts/__time/contacts__time.scss";
+@import "modules/blocks/contacts/__title/contacts__title.scss";
+@import "modules/blocks/contacts/__wrapper/contacts__wrapper.scss";
+@import "modules/blocks/contacts/__button/contacts__button";
+
 /* FOOTER */
 @import "modules/blocks/footer/footer.scss";
 @import "modules/blocks/footer/__wrapper/footer__wrapper.scss";
