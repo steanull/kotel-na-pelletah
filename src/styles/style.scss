@@ -124,6 +124,26 @@
 @import "modules/blocks/steps/__wrapper/steps__wrapper.scss";
 @import "modules/blocks/steps/__accent/steps__accent.scss";
 
+/* WARRANTY */
+@import "modules/blocks/warranty/warranty.scss";
+@import "modules/blocks/warranty/__accent/warranty__accent.scss";
+@import "modules/blocks/warranty/__item/warranty__item.scss";
+@import "modules/blocks/warranty/__list/warranty__list.scss";
+@import "modules/blocks/warranty/__subtitle/warranty__subtitle.scss";
+@import "modules/blocks/warranty/__text/warranty__text.scss";
+@import "modules/blocks/warranty/__title/warranty__title.scss";
+@import "modules/blocks/warranty/__wrapper/warranty__wrapper.scss";
+
+/* YOUTUBE-VIDEOS */
+@import "modules/blocks/youtube-videos/youtube-videos.scss";
+@import "modules/blocks/youtube-videos/__accent/youtube-videos__accent.scss";
+@import "modules/blocks/youtube-videos/__item/youtube-videos__item.scss";
+@import "modules/blocks/youtube-videos/__list/youtube-videos__list.scss";
+@import "modules/blocks/youtube-videos/__subtitle/youtube-videos__subtitle.scss";
+@import "modules/blocks/youtube-videos/__text/youtube-videos__text.scss";
+@import "modules/blocks/youtube-videos/__title/youtube-videos__title.scss";
+@import "modules/blocks/youtube-videos/__wrapper/youtube-videos__wrapper.scss";
+
 /* FOOTER */
 @import "modules/blocks/footer/footer.scss";
 @import "modules/blocks/footer/__wrapper/footer__wrapper.scss";

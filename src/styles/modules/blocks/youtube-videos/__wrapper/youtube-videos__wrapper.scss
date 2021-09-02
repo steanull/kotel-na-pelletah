@@ -1,0 +1,5 @@
+.youtube-videos__wrapper {
+  max-width: 1200px;
+  width: 100%;
+  @include margins(0 auto, 80px 0);
+}
