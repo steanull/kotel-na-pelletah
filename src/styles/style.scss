@@ -143,6 +143,13 @@
 @import "modules/blocks/youtube-videos/__text/youtube-videos__text.scss";
 @import "modules/blocks/youtube-videos/__title/youtube-videos__title.scss";
 @import "modules/blocks/youtube-videos/__wrapper/youtube-videos__wrapper.scss";
+@import "modules/blocks/youtube-videos/__video/youtube-videos__video.scss";
+@import "modules/blocks/youtube-videos/__image/youtube-videos__image.scss";
+
+/* PLAY-ICON */
+@import "modules/blocks/play-icon/play-icon.scss";
+@import "modules/blocks/play-icon/__play/play-icon__play.scss";
+@import "modules/blocks/play-icon/__stroke/play-icon__stroke.scss";
 
 /* FOOTER */
 @import "modules/blocks/footer/footer.scss";

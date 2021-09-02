@@ -1,0 +1,10 @@
+.play-icon__play {
+  animation: spin;
+  transform: scale(.8);
+  transform-origin: 50% 50%;
+  transition: transform 200ms ease-out;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

@@ -1,4 +1,6 @@
 .youtube-videos__subtitle {
   @include font(700, 18px, 18px, #FFFFFF);
   @include margins(20px 0 20px, 0);
+  max-width: 220px;
+  width: 100%;
 }

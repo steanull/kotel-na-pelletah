@@ -1,0 +1,48 @@
+.play-icon {
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -60px;
+
+  .play-icon__play {
+    -webkit-transition: all 0.7s ease-in-out;
+    stroke-dasharray: 240;
+    stroke-dashoffset: 480;
+    stroke: #F4F4F4;
+    transform: translateY(0)
+  }
+
+  &:hover {
+    .play-icon__play {
+      stroke-dashoffset: 0;
+      opacity: 1;
+      stroke: #f8aa28;
+      animation: nudge 0.7s ease-in-out;
+
+      @keyframes nudge {
+        0% {
+          transform: translateX(0)
+        }
+        30% {
+          transform: translateX(-5px)
+        }
+        50% {
+          transform: translateX(5px)
+        }
+        70% {
+          transform: translateX(-2px)
+        }
+        100% {
+          transform: translateX(0)
+        }
+      }
+    }
+
+    .play-icon__stroke {
+      stroke-dashoffset: 0;
+      opacity: 1;
+    }
+  }
+}
