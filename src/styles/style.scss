@@ -35,6 +35,7 @@
 @import "modules/blocks/top-screen/__wrapper/top-screen__wrapper.scss";
 @import "modules/blocks/top-screen/__advantages/top-screen__advantages.scss";
 @import "modules/blocks/top-screen/__advantage/top-screen__advantage.scss";
+@import "modules/blocks/top-screen/__image-wrapper/top-screen__image-wrapper.scss";
 
 /* VIDEO */
 @import "modules/blocks/video/video.scss";
@@ -150,6 +151,13 @@
 @import "modules/blocks/play-icon/play-icon.scss";
 @import "modules/blocks/play-icon/__play/play-icon__play.scss";
 @import "modules/blocks/play-icon/__stroke/play-icon__stroke.scss";
+
+/* fuel */
+@import "modules/blocks/fuel/fuel.scss";
+@import "modules/blocks/fuel/__description/fuel__description.scss";
+@import "modules/blocks/fuel/__title/fuel__title.scss";
+@import "modules/blocks/fuel/__ucalc/fuel__ucalc.scss";
+@import "modules/blocks/fuel/__wrapper/fuel__wrapper.scss";
 
 /* FOOTER */
 @import "modules/blocks/footer/footer.scss";
