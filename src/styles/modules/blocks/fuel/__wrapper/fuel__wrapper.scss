@@ -3,4 +3,14 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 0;
+
+  @include media(1279px) {
+    max-width: 900px;
+  }
+
+  @include media(1023px) {
+    @include margins(20px auto, 40px 28px);
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 }

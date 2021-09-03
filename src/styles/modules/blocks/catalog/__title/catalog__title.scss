@@ -23,11 +23,16 @@
 
   @include media(1023px) {
     @include font(700, 20px, 26px, #F4F4F4);
-    max-width: 420px;
+    max-width: 1000px;
+    text-align: center;
+
+    &:after {
+      display: none;
+    }
   }
 
   @include media(767px) {
-    @include font(700, 18px, 22px, #F4F4F4);
+    @include font(700, 20px, 22px, #F4F4F4);
     max-width: 420px;
     text-align: center;
 
