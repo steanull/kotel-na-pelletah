@@ -18,4 +18,17 @@
   &:hover {
     color: #e6b447;
   }
+
+  @include media(1279px) {
+    @include fontTitle(700, 16px, 20px, 1px);
+  }
+
+  @include media(1023px) {
+    @include fontTitle(700, 16px, 20px, 0.5px);
+  }
+
+  @include media(767px) {
+    @include fontTitle(700, 16px, 22px, 0.5px);
+    max-width: 232px;
+  }
 }

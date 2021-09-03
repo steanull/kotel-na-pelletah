@@ -1,5 +1,5 @@
 .catalog__title {
-  @include font(700, 28px, 40px, #FFFFFF);
+  @include font(700, 28px, 40px, #F4F4F4);
   @include margins(0, 0);
   position: relative;
 
@@ -14,5 +14,25 @@
     top: 50%;
     margin-top: -30px;
     left: 0;
+  }
+
+  @include media(1279px) {
+    @include font(700, 22px, 34px, #F4F4F4);
+    max-width: 450px;
+  }
+
+  @include media(1023px) {
+    @include font(700, 20px, 26px, #F4F4F4);
+    max-width: 420px;
+  }
+
+  @include media(767px) {
+    @include font(700, 18px, 22px, #F4F4F4);
+    max-width: 420px;
+    text-align: center;
+
+    &:after {
+      display: none;
+    }
   }
 }
