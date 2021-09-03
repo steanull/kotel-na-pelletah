@@ -1,0 +1,24 @@
+.survey__phone {
+  background-color: #2e3842;
+  @include size(360px, 50px);
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 11px 0 11px 20px;
+  margin: 20px 0;
+  @include font(500, 13px, 28px, #e6b447);
+  position: relative;
+  &:focus {
+    outline: none;
+    color: #e6b447;
+  }
+  &:hover {
+    color: #e6b447;
+  }
+  &::placeholder {
+    color: #F4F4F4;
+  }
+  &:hover::placeholder {
+    color: #e6b447;
+  }
+}

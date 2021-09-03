@@ -1,0 +1,17 @@
+.top-screen__image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -200px;
+  @include size(400px, 250px);
+  padding: 0;
+  background: var(--background-color);
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 330px;
+  margin-bottom: 120px;
+  border: 1px solid #e6b447;
+}

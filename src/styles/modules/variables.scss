@@ -2,3 +2,8 @@
   --title-color: #2e3842;
   --background-color: #F4F4F4;
 }
+
+::selection {
+  color: #e6b447;
+  background-color: #2e3842;
+}

@@ -1,0 +1,5 @@
+.survey {
+  width: 100%;
+  @include backgroundImage("../images/advantages-background.jpg", no-repeat, center, cover);
+  background-attachment: fixed;
+}

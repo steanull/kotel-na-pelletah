@@ -35,6 +35,7 @@
 @import "modules/blocks/top-screen/__wrapper/top-screen__wrapper.scss";
 @import "modules/blocks/top-screen/__advantages/top-screen__advantages.scss";
 @import "modules/blocks/top-screen/__advantage/top-screen__advantage.scss";
+@import "modules/blocks/top-screen/__image-wrapper/top-screen__image-wrapper.scss";
 
 /* VIDEO */
 @import "modules/blocks/video/video.scss";
@@ -123,6 +124,56 @@
 @import "modules/blocks/steps/__title/steps__title.scss";
 @import "modules/blocks/steps/__wrapper/steps__wrapper.scss";
 @import "modules/blocks/steps/__accent/steps__accent.scss";
+
+/* WARRANTY */
+@import "modules/blocks/warranty/warranty.scss";
+@import "modules/blocks/warranty/__accent/warranty__accent.scss";
+@import "modules/blocks/warranty/__item/warranty__item.scss";
+@import "modules/blocks/warranty/__list/warranty__list.scss";
+@import "modules/blocks/warranty/__subtitle/warranty__subtitle.scss";
+@import "modules/blocks/warranty/__text/warranty__text.scss";
+@import "modules/blocks/warranty/__title/warranty__title.scss";
+@import "modules/blocks/warranty/__wrapper/warranty__wrapper.scss";
+
+/* YOUTUBE-VIDEOS */
+@import "modules/blocks/youtube-videos/youtube-videos.scss";
+@import "modules/blocks/youtube-videos/__accent/youtube-videos__accent.scss";
+@import "modules/blocks/youtube-videos/__item/youtube-videos__item.scss";
+@import "modules/blocks/youtube-videos/__list/youtube-videos__list.scss";
+@import "modules/blocks/youtube-videos/__subtitle/youtube-videos__subtitle.scss";
+@import "modules/blocks/youtube-videos/__text/youtube-videos__text.scss";
+@import "modules/blocks/youtube-videos/__title/youtube-videos__title.scss";
+@import "modules/blocks/youtube-videos/__wrapper/youtube-videos__wrapper.scss";
+@import "modules/blocks/youtube-videos/__video/youtube-videos__video.scss";
+@import "modules/blocks/youtube-videos/__image/youtube-videos__image.scss";
+
+/* PLAY-ICON */
+@import "modules/blocks/play-icon/play-icon.scss";
+@import "modules/blocks/play-icon/__play/play-icon__play.scss";
+@import "modules/blocks/play-icon/__stroke/play-icon__stroke.scss";
+
+/* FUEL */
+@import "modules/blocks/fuel/fuel.scss";
+@import "modules/blocks/fuel/__description/fuel__description.scss";
+@import "modules/blocks/fuel/__title/fuel__title.scss";
+@import "modules/blocks/fuel/__ucalc/fuel__ucalc.scss";
+@import "modules/blocks/fuel/__wrapper/fuel__wrapper.scss";
+
+/* SURVEY */
+@import "modules/blocks/survey/survey.scss";
+@import "modules/blocks/survey/__description/survey__description.scss";
+@import "modules/blocks/survey/__email/survey__email.scss";
+@import "modules/blocks/survey/__form/survey__form.scss";
+@import "modules/blocks/survey/__phone/survey__phone.scss";
+@import "modules/blocks/survey/__submit/survey__submit.scss";
+@import "modules/blocks/survey/__title/survey__title.scss";
+@import "modules/blocks/survey/__valid/survey__valid.scss";
+@import "modules/blocks/survey/__wrapper/survey__wrapper.scss";
+@import "modules/blocks/survey/__label/survey__label.scss";
+@import "modules/blocks/survey/__range/survey__range.scss";
+@import "modules/blocks/survey/__square/survey__square.scss";
+@import "modules/blocks/survey/__email/_message/survey__email_message_error.scss";
+@import "modules/blocks/survey/__email/_message/survey__email_message_success.scss";
 
 /* FOOTER */
 @import "modules/blocks/footer/footer.scss";

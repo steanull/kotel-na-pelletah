@@ -6,3 +6,12 @@ const $sliders = document.querySelectorAll('[data-slider="chiefslider"]');
 $sliders.forEach(function ($slider) {
   new ChiefSlider($slider);
 });
+
+// Range
+let slider = document.querySelector(".survey__range");
+let output = document.querySelector(".survey__square");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
