@@ -14,4 +14,17 @@
   top: 330px;
   margin-bottom: 120px;
   border: 1px solid #e6b447;
+
+  @include media(1023px) {
+    @include size(350px, 200px);
+    margin-left: -100px;
+  }
+}
+
+@media (max-height: 650px) {
+  .top-screen__image-wrapper {
+    position: relative;
+    top: auto;
+    margin-bottom: 0;
+  }
 }

@@ -1,4 +1,8 @@
 .header__inner {
   margin: 70px auto;
   padding: 0;
+
+  @include media(1023px) {
+    margin: 10px auto;
+  }
 }

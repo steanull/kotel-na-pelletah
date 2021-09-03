@@ -3,4 +3,8 @@
   width: 100%;
   object-fit: contain;
   object-position: center;
+
+  @include media(1023px) {
+    max-width: 200px;
+  }
 }

@@ -5,4 +5,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include backgroundImage("../images/bg-dots.jpg", repeat, center, cover);
+
+  @include media(1023px) {
+    min-height: 100%;
+    padding: 0 28px;
+  }
 }

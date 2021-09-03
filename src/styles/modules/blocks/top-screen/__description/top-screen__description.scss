@@ -2,4 +2,18 @@
   list-style: none;
   @include font(400, 18px, 30px, #2e3842);
   @include margins(7vh 0, 0);
+
+  @include media(1279px) {
+    @include font(400, 16px, 24px, #2e3842);
+    max-width: 450px;
+  }
+
+  @include media(1023px) {
+    @include font(400, 14px, 20px, #2e3842);
+    max-width: 420px;
+  }
+
+  @include media(767px) {
+    @include margins(40px 0, 0);
+  }
 }

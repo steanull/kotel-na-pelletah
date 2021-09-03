@@ -7,4 +7,17 @@
   &:hover {
     color: #e6b447;
   }
+
+  @include media(1279px) {
+    @include font(600, 14px, 14px, #151515);
+    min-width: 140px;
+  }
+
+  @include media(1023px) {
+    @include font(600, 16px, 16px, #151515);
+  }
+
+  @include media(767px) {
+    display: none;
+  }
 }

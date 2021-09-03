@@ -14,16 +14,30 @@
   flex-direction: column;
   justify-content: center;
 
+  @include media(1440px) {
+    right: 0;
+    top: 5vh;
+    max-width: 450px;
+  }
+
   @include media(1279px) {
-    min-height: 650px;
-    max-width: 580px;
+    right: 0;
+    top: 5vh;
+    max-width: 310px;
   }
 
   @include media(1023px) {
-    max-width: 310px;
+    max-width: 250px;
   }
 
   @include media(767px) {
     display: none;
+  }
+}
+
+@media (max-height: 650px) {
+  .top-screen__background {
+    top: 5vh;
+    height: auto;
   }
 }

@@ -12,4 +12,12 @@
     left: -25px;
     top: -1px;
   }
+
+  @include media(1023px) {
+    max-width: 110px;
+  }
+
+  @include media(767px) {
+    max-width: 100%;
+  }
 }

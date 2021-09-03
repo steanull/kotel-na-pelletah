@@ -6,4 +6,20 @@
   gap: 0 50px;
   margin: 10vh 0 0;
   position: relative;
+
+  @include media(1279px) {
+    max-width: 550px;
+  }
+
+  @include media(1023px) {
+    gap: 0 20px;
+  }
+
+  @include media(767px) {
+    max-width: 100%;
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 20px 0;
+    margin: 40px 0 0;
+  }
 }

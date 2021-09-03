@@ -4,4 +4,9 @@
   z-index: 99999;
   display: flex;
   justify-content: center;
+
+  @include media(1023px) {
+    position: relative;
+    background-color: transparent;
+  }
 }
