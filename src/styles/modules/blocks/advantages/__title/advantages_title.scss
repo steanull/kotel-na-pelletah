@@ -4,16 +4,17 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .advantages__title {
-        font-size: 28px;
-        line-height: 56px;
-        margin: 0;
-    }
+  .advantages__title {
+    font-size: 28px;
+    line-height: 56px;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .advantages__title {
-        font-size: 24px;
-        line-height: 36px;
-    }
+  .advantages__title {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+  }
 }

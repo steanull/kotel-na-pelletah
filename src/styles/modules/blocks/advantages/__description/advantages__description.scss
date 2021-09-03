@@ -1,3 +1,8 @@
 .advantages__description {
   @include font(300, 16px, 24px, #bfbfbf);
+
+  @include media(767px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }

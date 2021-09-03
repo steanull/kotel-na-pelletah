@@ -1,4 +1,8 @@
 .advantages__subtitle {
   line-height: 28px;
   color: #FFFFFF;
+
+  @include media(767px) {
+    line-height: 20px;
+  }
 }
