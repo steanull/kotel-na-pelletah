@@ -1,4 +1,17 @@
 .video__description {
   @include font(400, 20px, 24px, #e6b447);
   margin: 10px 0 60px;
+
+  @include media(1279px) {
+    @include font(400, 18px, 26px, #e6b447);
+  }
+
+  @include media(1023px) {
+    @include font(400, 16px, 22px, #e6b447);
+    margin: 10px 0 45px;
+  }
+
+  @include media(767px) {
+    margin: 10px 0 25px;
+  }
 }

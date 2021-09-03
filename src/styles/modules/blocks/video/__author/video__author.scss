@@ -15,4 +15,20 @@
     margin-top: -1px;
     right: 0;
   }
+
+  @include media(1023px) {
+
+    &:after {
+      content: "";
+      display: block;
+      height: 2px;
+      background: #D7D4D4;
+      max-width: 152px;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      margin-top: -1px;
+      right: 0;
+    }
+  }
 }
