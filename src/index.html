@@ -651,6 +651,25 @@
         </ul>
       </div>
     </section>
+    <section class="survey">
+      <div class="survey__wrapper">
+        <h2 class="survey__title">Пройдите опрос</h2>
+        <p class="survey__description">И получите выгодное предложение с описанием эксплуатационных расходов</p>
+        <form name="survey-form" class="survey__form" novalidate>
+          <label class="survey__label" for="range">Площадь отапливаемого помещения,
+            <span class="survey__square"></span> м²</label>
+          <input type="range" min="500" max="20000" value="10000" class="survey__range" id="range">
+          <span class="survey__valid" data-for="range"></span>
+          <input type="text" name="email" class="survey__email" placeholder="Ваш e-mail"
+                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+          <span class="survey__valid" data-for="email"></span>
+          <input type="text" name="number" class="survey__phone" placeholder="Ваш телефон"
+                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+          <span class="survey__valid" data-for="number"></span>
+          <button type="submit" class="survey__submit">Получить предложение</button>
+        </form>
+      </div>
+    </section>
     <section class="contacts" id="contacts">
       <div class="contacts__wrapper">
         <h2 class="contacts__title">Наши контакты</h2>
