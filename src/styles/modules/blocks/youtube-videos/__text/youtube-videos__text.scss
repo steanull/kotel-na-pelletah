@@ -1,3 +1,16 @@
 .youtube-videos__text {
-  @include font(300, 14px, 18px, #bfbfbf);
+  @include font(300, 14px, 18px, #f4f4f4);
+  margin: 50px 0 20px 0;
+  &::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #e6b447;
+    max-width: 182px;
+    width: 100%;
+    position: absolute;
+    top: 63%;
+    margin-top: -10px;
+    left: 10px;
+  }
 }
