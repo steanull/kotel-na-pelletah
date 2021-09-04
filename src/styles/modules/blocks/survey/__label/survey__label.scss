@@ -1,4 +1,8 @@
 .survey__label {
   @include font(400, 14px, 14px, #F4F4F4);
   margin: 20px;
+
+  @include media(768px) {
+    line-height: 20px;
+  }
 }

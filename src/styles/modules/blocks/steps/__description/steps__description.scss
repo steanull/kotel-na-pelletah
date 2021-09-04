@@ -5,4 +5,8 @@
   @include media(1279px) {
     @include font(700, 16px, 16px, #e6b447);
   }
+
+  @include media(768px) {
+    @include font(700, 14px, 16px, #e6b447);
+  }
 }
