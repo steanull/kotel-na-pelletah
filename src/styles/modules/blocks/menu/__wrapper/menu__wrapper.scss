@@ -5,4 +5,8 @@
   justify-content: space-between;
   align-items: center;
   @include size(1200px, 70px);
+
+  @include media(1279px) {
+    @include size(900px, 60px);
+  }
 }

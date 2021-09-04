@@ -1,0 +1,33 @@
+.popup-callback__button {
+  position: absolute;
+  width: 100%;
+  max-width: 32px;
+  min-height: 32px;
+  border: 0;
+  background-image: url(../images/close-icon.svg);
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+  top: -30px;
+  right: -30px;
+  transition: .5s;
+  &:hover {
+    opacity: .6;
+  }
+}
+
+.popup-callback__button:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 500px) {
+  .popup-callback__button {
+    margin-right: 107px;
+    top: -40px;
+    max-width: 35px;
+    min-height: 35px;
+  }
+
+}

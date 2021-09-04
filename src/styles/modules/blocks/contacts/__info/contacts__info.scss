@@ -3,4 +3,17 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @include media(1279px) {
+    padding: 30px 200px 60px 0;
+  }
+
+  @include media(1023px) {
+    padding: 30px 50px 60px 0;
+    box-sizing: border-box;
+  }
+
+  @include media(767px) {
+    padding: 30px 50px 60px;
+  }
 }

@@ -12,4 +12,21 @@
   &:hover {
     background-color: #2e3842;
   }
+
+  @include media(1279px) {
+    @include font(200, 12px, 12px, #FFFFFF);
+    margin: 3px 0;
+  }
+
+  @include media(1023px) {
+    @include font(200, 12px, 12px, #FFFFFF);
+    margin: 3px 0;
+  }
+
+  @include media(767px) {
+    @include font(200, 14px, 16px, #FFFFFF);
+    margin: 3px 0;
+    padding: 0 18px;
+    height: 40px;
+  }
 }

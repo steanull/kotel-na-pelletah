@@ -1,4 +1,19 @@
 .product-card__capacity {
   @include font(400, 14px, 20px, #2e3842);
   margin: 15px 0;
+
+  @include media(1279px) {
+    @include font(400, 14px, 20px, #2e3842);
+    margin: 10px 0;
+  }
+
+  @include media(1023px) {
+    @include font(700, 14px, 20px, #2e3842);
+    margin: 10px 0;
+  }
+
+  @include media(767px) {
+    @include fontTitle(700, 16px, 22px, 0.5px);
+    max-width: 420px;
+  }
 }

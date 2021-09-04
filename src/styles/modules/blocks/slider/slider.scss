@@ -1,5 +1,19 @@
 .slider {
     position: relative;
-    max-width: 1200px;
+    max-width: 1150px;
     width: 100%;
+
+  @include media(1279px) {
+    max-width: 900px;
+  }
+
+  @include media(1023px) {
+    max-width: 650px;
+  }
+
+  @include media(768px) {
+    max-width: 650px;
+    padding: 0 28px;
+    box-sizing: border-box;
+  }
 }

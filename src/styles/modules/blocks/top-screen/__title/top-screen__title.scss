@@ -3,4 +3,19 @@
   width: 100%;
   @include fontTitle(700, 28px, 40px, 0.5px);
   @include margins(0, 0);
+
+  @include media(1279px) {
+    @include fontTitle(700, 22px, 34px, 0.5px);
+    max-width: 450px;
+  }
+
+  @include media(1023px) {
+    @include fontTitle(700, 20px, 26px, 0.5px);
+    max-width: 420px;
+  }
+
+  @include media(767px) {
+    @include fontTitle(700, 18px, 22px, 0.5px);
+    max-width: 420px;
+  }
 }

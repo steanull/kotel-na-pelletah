@@ -5,4 +5,8 @@
   &:hover {
     color: #e6b447;
   }
+
+  @include media(1279px) {
+    @include font(400, 14px, 14px, #151515);
+  }
 }

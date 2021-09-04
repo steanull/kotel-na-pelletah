@@ -1,0 +1,19 @@
+.top-screen__mobile-video {
+  display: none;
+
+  @include media(767px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @include size(100%, 100%);
+    padding: 0;
+    margin: 0 0 40px;
+    background: var(--background-color);
+    filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 1px solid #e6b447;
+  }
+}

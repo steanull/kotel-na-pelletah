@@ -5,5 +5,26 @@
   gap: 0 20px;
   justify-content: space-between;
   list-style: none;
-  @include margins(50px 0, 0)
+  @include margins(50px 0, 0);
+
+  @include media(1279px) {
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-template-rows: minmax(min-content, max-content);
+    justify-content: center;
+    gap: 40px 40px;
+  }
+
+  @include media(1023px) {
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    justify-content: center;
+    gap: 40px 80px;
+  }
+
+  @include media(767px) {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+    justify-content: center;
+    gap: 40px 0;
+  }
 }

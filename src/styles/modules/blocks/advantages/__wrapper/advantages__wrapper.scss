@@ -2,4 +2,12 @@
   max-width: 1200px;
   width: 100%;
   @include margins(0 auto, 80px 0);
+
+  @include media(1279px) {
+    max-width: 1000px;
+  }
+
+  @include media(767px) {
+    @include margins(0 auto, 40px 0);
+  }
 }

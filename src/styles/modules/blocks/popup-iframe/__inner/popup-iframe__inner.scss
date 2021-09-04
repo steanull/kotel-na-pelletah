@@ -1,0 +1,12 @@
+.popup-iframe__inner {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    position: relative;
+
+  @include media(767px) {
+    max-width: 300px;
+  }
+}

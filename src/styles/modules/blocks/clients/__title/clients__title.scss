@@ -1,3 +1,9 @@
 .clients__title {
-  
+  @include font(700, 28px, 40px, #2e3842);
+  @include margins(20px 0 20px, 0);
+  text-align: center;
+
+  @include media(767px) {
+    @include fontTitle(700, 20px, 22px, 0.5px);
+  }
 }

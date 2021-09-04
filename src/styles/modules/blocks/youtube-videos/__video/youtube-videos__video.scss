@@ -9,4 +9,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  @include media(1279px) {
+    min-height: 200px;
+  }
 }

@@ -1,4 +1,15 @@
 .catalog__wrapper {
   @include size(1200px, 100px);
   @include margins(20px auto, 80px 0);
+
+  @include media(1279px) {
+    max-width: 900px;
+    @include margins(20px auto, 60px 0);
+  }
+
+  @include media(1023px) {
+    @include margins(20px auto, 60px 28px);
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 }

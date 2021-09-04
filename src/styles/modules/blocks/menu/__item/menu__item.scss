@@ -1,3 +1,7 @@
 .menu__item {
   margin: 0 30px;
+
+  @include media(1279px) {
+    margin: 0 20px;
+  }
 }

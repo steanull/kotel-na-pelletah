@@ -2,4 +2,8 @@
   @include fontTitle(700, 22px, 36px, 0.5px);
   margin: 0;
   padding: 0;
+
+  @include media(768px) {
+    @include font(700, 18px, 18px, #2e3842);
+  }
 }

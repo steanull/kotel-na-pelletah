@@ -9,4 +9,17 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding: 80px 0;
+
+  @include media(1279px) {
+    max-width: 900px;
+  }
+
+  @include media(1023px) {
+    padding: 40px 28px;
+  }
+
+  @include media(767px) {
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: minmax(min-content, max-content);
+  }
 }

@@ -12,4 +12,20 @@
   &:hover {
     box-shadow: 0 0 19px 0 rgba(50, 50, 50, 0.3);
   }
+
+  @include media(1279px) {
+    max-width: 190px;
+    padding: 10px;
+  }
+
+  @include media(1023px) {
+    max-width: 220px;
+    padding: 20px;
+  }
+
+  @include media(767px) {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
 }

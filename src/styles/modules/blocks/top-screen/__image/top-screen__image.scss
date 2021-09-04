@@ -1,4 +1,8 @@
 .top-screen__image {
   @include size(400px, 250px);
   border-radius: 20px;
+
+  @include media(1023px) {
+    @include size(350px, 200px);
+  }
 }

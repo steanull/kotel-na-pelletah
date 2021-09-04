@@ -1,4 +1,18 @@
 .video__title {
   @include fontTitle(700, 28px, 40px, 0.5px);
   @include margins(20px 0, 0);
+
+  @include media(1279px) {
+    @include fontTitle(700, 24px, 34px, 0.5px);
+  }
+
+  @include media(1023px) {
+    @include fontTitle(700, 20px, 26px, 0.5px);
+    @include margins(30px 0 10px, 0);
+    max-width: 350px;
+  }
+
+  @include media(767px) {
+    @include fontTitle(700, 18px, 22px, 0.5px);
+  }
 }

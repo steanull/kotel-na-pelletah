@@ -2,4 +2,15 @@
   max-width: 260px;
   width: 100%;
   position: relative;
+  background-color: rgba(46, 56, 66, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+
+  @include media(1279px) {
+    margin: 0 10px;
+  }
+
+  @include media(767px) {
+    margin: 10px 0;
+  }
 }

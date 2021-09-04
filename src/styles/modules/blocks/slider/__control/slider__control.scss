@@ -9,6 +9,10 @@
     top: 50%;
     transform: translateY(-50%);
     width: 40px;
+
+  @include media(767px) {
+    display: none;
+  }
 }
 
 .slider__control::before {

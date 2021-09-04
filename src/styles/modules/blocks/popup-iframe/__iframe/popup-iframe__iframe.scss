@@ -1,0 +1,10 @@
+.popup-iframe__iframe {
+    width: 1000px;
+    height: 564px;
+
+  @include media(767px) {
+    width: 100%;
+    margin: 0 auto;
+    height: 344px;
+  }
+}

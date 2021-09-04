@@ -1,0 +1,8 @@
+.popup-gallery__image {
+    width: 500px;
+    height: auto;
+
+  @include media(767px) {
+    width: 100%;
+  }
+}

@@ -23,4 +23,15 @@
   &:nth-of-type(4):before {
     @include backgroundImage("../images/4.svg", no-repeat, center, contain);
   }
+
+  @include media(1279px) {
+    &:before {
+      width: 40px;
+      height: 40px;
+      content: " ";
+      position: absolute;
+      left: 5px;
+      top: 25px;
+    }
+  }
 }
