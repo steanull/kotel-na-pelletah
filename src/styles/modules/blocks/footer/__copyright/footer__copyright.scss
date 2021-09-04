@@ -1,4 +1,8 @@
 .footer__copyright {
   @include font(700, 16px, 18px, #ffffff);
   @include margins(0, 10px 0);
+
+  @include media(767px) {
+    padding: 20px 0 10px;
+  }
 }

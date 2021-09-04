@@ -5,4 +5,8 @@
     align-self: center;
     flex-direction: column;
     position: relative;
+
+  @include media(767px) {
+    max-width: 300px;
+  }
 }

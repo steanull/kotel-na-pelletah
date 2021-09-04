@@ -22,10 +22,10 @@
   opacity: .6;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .popup-callback__button {
-    margin-right: 47px;
-    margin-top: -2px;
+    margin-right: 107px;
+    top: -40px;
     max-width: 35px;
     min-height: 35px;
   }

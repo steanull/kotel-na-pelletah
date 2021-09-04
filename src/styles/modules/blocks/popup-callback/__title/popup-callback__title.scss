@@ -2,4 +2,9 @@
   @include font(700, 28px, 40px, #ffffff);
   @include margins(20px 0 50px, 0);
   text-align: center;
+
+  @include media(767px) {
+    @include font(700, 20px, 24px, #ffffff);
+    @include margins(20px 0 50px, 0 20px);
+  }
 }

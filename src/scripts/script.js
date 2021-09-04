@@ -183,8 +183,8 @@ let popupIframe = document.querySelector('.popup-iframe');
 let popupIframeCloseBtn = popupIframe.querySelector('.popup-iframe__button');
 let popupCallback = document.querySelector('.popup-callback');
 let popupCallbackCloseBtn = document.querySelector('.popup-callback__button');
-let headerPopupBtn = document.querySelector('.header__icon');
 let videoPopupBtn = document.querySelector('.video__icon');
+let headerPopupBtn = document.querySelectorAll('.header__icon');
 let YoutubePopupBtn = document.querySelectorAll('.youtube-videos__icon');
 let galleryImageBtn = document.querySelectorAll('.gallery__image');
 let contactsBtn = document.querySelector('.contacts__button');
@@ -325,18 +325,19 @@ popupCallback.addEventListener('click', (event) => {
   }
 });
 
-headerPopupBtn.addEventListener('click', function () {
-  openIframe(popupIframe);
-  document.querySelector('.popup-iframe__iframe').src = initialFrame[0].link;
-  document.querySelector('.popup-iframe__title').innerHTML = initialFrame[0].name;
-});
-
 videoPopupBtn.addEventListener('click', function () {
   openIframe(popupIframe);
   document.querySelector('.popup-iframe__iframe').src = initialFrame[1].link;
   document.querySelector('.popup-iframe__title').innerHTML = initialFrame[1].name;
 });
 
+headerPopupBtn.forEach(item => {
+  item.addEventListener('click', function () {
+  openIframe(popupIframe);
+  document.querySelector('.popup-iframe__iframe').src = initialFrame[0].link;
+  document.querySelector('.popup-iframe__title').innerHTML = initialFrame[0].name;
+  });
+});
 for (let i = 0; i < YoutubePopupBtn.length; i++) {
   YoutubePopupBtn[i].addEventListener('click', function () {
     openIframe(popupIframe);
