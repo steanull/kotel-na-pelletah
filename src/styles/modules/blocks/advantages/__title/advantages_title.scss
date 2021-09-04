@@ -1,10 +1,8 @@
 .advantages__title {
   @include font(900, 34px, 64px, #ffffff);
   @include margins(10px 0, 0);
-}
 
-@media screen and (max-width: 1200px) {
-  .advantages__title {
+  @include media(1279px) {
     font-size: 28px;
     line-height: 56px;
     margin: 0;

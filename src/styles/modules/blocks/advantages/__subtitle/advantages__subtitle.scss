@@ -2,6 +2,10 @@
   line-height: 28px;
   color: #FFFFFF;
 
+  @include media(1279px) {
+    line-height: 20px;
+  }
+
   @include media(767px) {
     line-height: 20px;
   }

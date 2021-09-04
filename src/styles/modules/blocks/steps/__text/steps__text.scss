@@ -1,3 +1,7 @@
 .steps__text {
   @include font(300, 16px, 24px, #bfbfbf);
+
+  @include media(1279px) {
+    @include font(400, 14px,18px, #bfbfbf);
+  }
 }

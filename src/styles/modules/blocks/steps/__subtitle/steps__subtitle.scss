@@ -1,4 +1,9 @@
 .steps__subtitle {
   @include font(700, 18px, 18px, #FFFFFF);
   @include margins(20px 0 20px, 0);
+
+  @include media(1279px) {
+    @include font(700, 16px, 20px, #FFFFFF);
+    @include margins(20px 0 10px, 0);
+    }
 }
